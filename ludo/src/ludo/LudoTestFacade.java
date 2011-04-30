@@ -1,5 +1,8 @@
 package ludo;
 
+import excessoes.JogadaException;
+import excessoes.TabuleiroException;
+
 public class LudoTestFacade {
 
 	public void criarJogo(int numPecas, int tamanhoDado){
