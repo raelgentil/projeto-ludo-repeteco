@@ -1,22 +1,23 @@
 package ludo;
 
+import jogo.JogoLudo;
 import excessoes.JogadaException;
 import excessoes.TabuleiroException;
 
 public class LudoTestFacade {
+	LudoFacade fachada;
 
 	public void criarJogo(int numPecas, int tamanhoDado){
-		// implementar
+		fachada.criarJogo(numPecas, tamanhoDado);
 	}
 
 	public int getNumPecas(){
-		// implementar
-		return 0;
+		return fachada.getNumPecas();
 	}
 
 	public int getTamanhoDado(){
-		// implementar
-		return 0;
+		//
+		return -1;
 	}
 
 	public int getTamanhoTabuleiro(){
